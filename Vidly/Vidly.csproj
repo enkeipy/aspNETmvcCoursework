@@ -167,8 +167,13 @@
     <Compile Include="Migrations\202101130120251_AddBirthdateToCustomerModel.designer.cs">
       <DependentUpon>202101130120251_AddBirthdateToCustomerModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101140028383_AddGenreModel.cs" />
+    <Compile Include="Migrations\202101140028383_AddGenreModel.designer.cs">
+      <DependentUpon>202101140028383_AddGenreModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\MyDBContext.cs" />
@@ -359,6 +364,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202101130120251_AddBirthdateToCustomerModel.resx">
       <DependentUpon>202101130120251_AddBirthdateToCustomerModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101140028383_AddGenreModel.resx">
+      <DependentUpon>202101140028383_AddGenreModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
